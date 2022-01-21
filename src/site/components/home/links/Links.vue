@@ -1,12 +1,12 @@
 <template>
 	<div class="links">
 		<a
-			href="https://github.com/WeebDev/chibisafe"
+			href="https://jackli.dev"
 			target="_blank"
 			class="link">
 			<header class="bd-footer-star-header">
-				<h4 class="bd-footer-title">GitHub</h4>
-				<p class="bd-footer-subtitle">Deploy your own chibisafe</p>
+				<h4 class="bd-footer-title">Main Site</h4>
+				<p class="bd-footer-subtitle">Me</p>
 			</header>
 		</a>
 		<div
@@ -22,15 +22,6 @@
 				</p>
 			</header>
 		</div>
-		<a
-			href="https://chrome.google.com/webstore/detail/lolisafe-uploader/enkkmplljfjppcdaancckgilmgoiofnj"
-			target="_blank"
-			class="link">
-			<header class="bd-footer-star-header">
-				<h4 class="bd-footer-title">Extension</h4>
-				<p class="bd-footer-subtitle">Upload from any website</p>
-			</header>
-		</a>
 		<router-link
 			to="/faq"
 			class="link">
@@ -39,7 +30,7 @@
 					FAQ
 				</h4>
 				<p class="bd-footer-subtitle">
-					We got you covered
+					Questions & Answers
 				</p>
 			</header>
 		</router-link>
@@ -84,7 +75,8 @@ export default {
 		margin: 7rem 0 3rem 0;
 		align-items: stretch;
 		display: flex;
-		justify-content: space-between;
+		justify-content: flex-end;
+		column-gap: 2rem;
 
 		div.link { cursor: pointer; }
 		.link {
@@ -128,6 +120,12 @@ export default {
 				box-shadow: 0 3rem 3rem -1.25rem rgba(10,10,10,.1);
 				transform: translateY(-.5rem);
 			}
+		}
+	}
+
+	@media (max-width: 1025px) {
+		.links {
+			justify-content: center;
 		}
 	}
 
