@@ -3,12 +3,19 @@
 		<div class="container">
 			<div class="columns">
 				<div class="column is-narrow">
-					<h4>chibisafe</h4>
+					<h4>SafeSaka</h4>
 					<span>© 2017-{{ getYear }}
 						<a
 							href="https://github.com/pitu"
 							class="no-block">Pitu</a>
-					</span><br>
+					</span>
+					<br>
+					<span>(modified by:
+						<a
+							href="https://github.com/jckli"
+							class="no-block">ohashi</a>)
+					</span>
+					<br>
 					<span>{{ version }}</span>
 				</div>
 				<div class="column is-narrow bottom-up">
@@ -84,6 +91,25 @@ export default {
 				max-width: unset !important;
 			}
 		}
+		
+		@media (max-width: 1025px) {
+			.container {
+				.columns{
+					.column {
+					margin-left: 1.5rem;
+					}
+				}
+			}
+		}
+		@media screen and (max-width: 768px) {
+			.container {
+				.columns{
+					.column {
+					margin-left: 0;
+					}
+				}
+			}
+		}
 
 		.container {
 			.column {
@@ -92,6 +118,7 @@ export default {
 
 				text-align: center;
 				@media screen and (min-width: 1025px) {
+
 					margin-right: 2rem;
 					&.bottom-up {
 						display: flex;
