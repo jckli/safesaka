@@ -219,9 +219,14 @@ export default {
 	.uploader-wrapper {
 		display: block;
 		width: 400px;
-		margin: 0 auto;
+		margin-left: auto;
 		max-width: 100%;
 		position: relative;
+	}
+	@media (max-width: 1025px) {
+		.uploader-wrapper {
+			margin: 0 auto;
+		}
 	}
 </style>
 <style lang="scss">
