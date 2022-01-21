@@ -101,6 +101,9 @@ export default {
 					position: relative;
 					text-align: center;
 				}
+				.has-text-right {
+					text-align: center !important;
+				}
 			}
 		}
 	}
