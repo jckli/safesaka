@@ -1,3 +1,7 @@
+<br>
+
+> **Note**: This fork is the one being used at https://cdn.hayasaka.moe. The modifications are all just personal modifications to the site to make it work better for me. If you are looking for the original, please head over to [chibisafe](https://github.com/WeebDev/chibisafe).
+
 <p align="center">
   <img width="234" height="376" src="https://lolisafe.moe/xjoghu.png">
 </p>
