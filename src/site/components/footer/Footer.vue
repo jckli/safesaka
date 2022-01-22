@@ -19,7 +19,7 @@
 					<span>{{ version }}</span>
 				</div>
 				<div class="column is-narrow bottom-up">
-					<a href="https://github.com/weebdev/chibisafe">GitHub</a>
+					<a href="https://github.com/jckli/safesaka">GitHub</a>
 					<a href="https://patreon.com/pitu">Patreon</a>
 					<a href="https://discord.gg/5g6vgwn">Discord</a>
 				</div>
